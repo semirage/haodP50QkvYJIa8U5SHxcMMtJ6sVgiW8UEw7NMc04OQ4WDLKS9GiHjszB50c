@@ -11,6 +11,7 @@ login = ui.new_button("LUA", "A", "Login", function()
 		ui.set_visible(label2, false)
 		ui.set_visible(password, false)
 		ui.set_visible(login, false)
+		ui.set_visible(discord, false)
 	end
 	if ui.get(user) == "Paladin" then
 		key = ui.get(password)
@@ -19,6 +20,7 @@ login = ui.new_button("LUA", "A", "Login", function()
 		ui.set_visible(label2, false)
 		ui.set_visible(password, false)
 		ui.set_visible(login, false)
+		ui.set_visible(discord, false)
 	end
 	if ui.get(user) == "Velema" then
 		key = ui.get(password)
@@ -27,4 +29,7 @@ login = ui.new_button("LUA", "A", "Login", function()
 		ui.set_visible(label2, false)
 		ui.set_visible(password, false)
 		ui.set_visible(login, false)
+		ui.set_visible(discord, false)
+	end
 end)
+discord = ui.new_label("LUA", "A", "Join discord: discord.link/Semi")
